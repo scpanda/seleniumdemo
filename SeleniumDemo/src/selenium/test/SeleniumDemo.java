@@ -16,13 +16,12 @@ public class SeleniumDemo {
 		System.out.println("first title is:"+driver.getTitle());
 		
 		WebElement input_area=driver.findElement(By.name("q"));
-		input_area.sendKeys("¾©¶«");
+		input_area.sendKeys("äº¬ä¸œ");
 		
 		WebElement search_buuton=driver.findElement(By.name("go"));
 		search_buuton.click();
 		System.out.println("now title is:"+driver.getTitle());
 		
-		//¹Ø±Õä¯ÀÀÆ÷
 		//driver.quit();
 	}
 
